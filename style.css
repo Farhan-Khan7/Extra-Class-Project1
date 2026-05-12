@@ -306,11 +306,12 @@ nav .btn button:last-child{
   width: 100%;
   height: 55vh;
   /* background-color: yellow; */
-  margin-bottom: 30px;
-  padding: 0 90px;
+  /* margin-bottom: 30px; */
+  padding: 10px 90px;
   display: flex;
   justify-content: space-between;
   align-items: center; 
+  gap: 20px;
 }
 
 #left-card{
@@ -383,6 +384,58 @@ nav .btn button:last-child{
 #right-card{
   width: 50%;
   height: 100%;
-  /* background-color: #c75d5d; */
+  background-color: #FAFAFA;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
+.right-card-content{
+  width: 50%;
+  height: 100%;
+  /* background-color: #000000; */
+  display: flex;
+  flex-direction: column;
+  padding: 3% 3%;
+  position: relative;
+}
+.right-card-content p{
+  text-transform: uppercase;
+    font-size: 1.2em;
+    color: #666666;
+    font-weight: 500;
+}
+.right-card-content h1{
+  margin: 20px 0;
+  text-transform: uppercase;
+    font-size: 1.3em;
+    color: #000000;
+    font-weight: 500;
+}
+
+.right-card-content button{
+  border: none;
+  width: fit-content;
+  padding: 10px 20px;
+  font-size: 1.4em;
+  position: absolute;
+  background-color: transparent;
+  bottom: 5%;
+}
+.right-card-content button i{
+  font-size: 1.2em;
+  margin: 0 5px;
+  background-color: black;
+  border-radius: 50%;
+  padding: 2px;
+  color: #FAFAFA;
+}
+.right-img{
+background-image: url(assets/card-3.jpg);
+  background-size: contain;
+  border-radius: 20px;
+  width: 50%;
+  height: 85%;
+  background-color: yellow;
+}
