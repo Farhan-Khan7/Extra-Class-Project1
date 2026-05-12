@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+
+#section-1{
+    width: 100%;
+    height: auto;
+    background-color: #FBFBFB;
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
+    /* position: relative; */
+}
+
+nav{
+    background-color: #fbfbfbf4;
+    /* position: fixed; */
+    width: 100%;
+    height: auto;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    /* gap: 7px; */
+}
+
+nav .logo h2{
+    font-size: 2.2em;
+    font-weight: lighter;
+}
+
+nav .logo h3{
+    font-size: 2.1em;
+}
+nav .nav-links{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: #000000;
+}
+nav .nav-links a{
+    font-size: .9em;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav .btn{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav .btn button:first-child{
+    border-radius: 50px;
+    padding: 7px 10px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    font-weight: 500;
+    cursor: pointer;
+}
+nav .btn button:first-child:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition: .5s;
+}
+nav .btn button:last-child{
+    border-radius: 50px;
+    padding: 7px 10px;
+    border: 2px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* navbar done */
+
+#hero{
+  width: 90%;
+  justify-self: center;
+  height: auto;
+  background-color: #FAFAFA;
+  /* background-color: yellow; */
+  border-radius: 25px;
+  padding: 0px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* LEFT CONTENT */
+
+.content{
+    /* background-color: yellow; */
+  flex: 1;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* RATING */
+
+.rating{
+  display: flex;
+  align-items: center;;
+  gap: 12px;
+  width: fit-content;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+
+.rating i{
+    padding: 10px;
+  /* width: 42px; */
+  /* height: 42px; */
+  background-color: #f1f1f1;
+  /* color: rgb(255, 217, 0); */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.rating h5{
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #111;
+}
+
+.rating p{
+  font-size: 1.2em;
+  color: gray;
+}
+
+/* HEADING */
+
+.content h1{
+  font-size: 8vw;
+  line-height: .9;
+  font-weight: 500;
+  color: #111;
+  margin-bottom: 5%;
+}
+
+/* DESCRIPTION */
+
+.description{
+  max-width: 500px;
+  font-size: 1.1em;
+  line-height: 1.3;
+  color: #8d8d8d;
+  margin-bottom: 4%;
+}
+
+/* BUTTONS */
+
+.buttons{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  /* flex-wrap: wrap; */
+}
+
+.buttons button{
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-btn{
+  background-color: #efefef;
+  padding: 20px 30px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.primary-btn{
+  background-color: black;
+  color: white;
+  padding: 20px 32px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.primary-btn i{
+    font-size: 1.1em;
+    margin-right: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: #000000;
+    font-weight: bold;
+}
+
+.primary-btn:hover{
+  transform: translateY(-2px);
+}
+
+/* BRANDS */
+
+
+.brands{
+    width: 100%;
+    height: auto;
+}
+
+.brands p{
+    font-size: 1.5em;
+    color: #8d8d8d;
+    /* margin-bottom: 2px; */
+    font-weight: 500;
+}
+
+/* LOGOS */
+
+.brand-logos{
+    width: 100%;
+    /* height: auto; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* flex-wrap: wrap; */
+}
+
+.brand-logos span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* IMAGE */
+
+.brand-logos span img{
+    /* width: 12vw; */
+    height: 12vh;
+    object-fit: contain;
+    opacity: 0.8;
+    transition: 0.3s ease;
+}
+
+/* HOVER EFFECT */
+
+.brand-logos span img:hover{
+    opacity: 1;
+    transform: translateY(-2px);
+}
+/* IMAGE SECTION */
+
+.background-img{
+/* background-color: yellow; */
+  flex: 1;
+  width: 70%;;
+  height: 100vh;
+  /* border-radius: 25px; */
+  overflow: hidden;
+}
+
+.background-img img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  /* display: block; */
+  border-radius: 25px;
+}
+/* Hero section Done */
+
+
